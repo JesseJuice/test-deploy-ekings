@@ -1,0 +1,1113 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #000;
+  min-height: 100vh;
+}
+
+.nav-container {
+  background-color: black;
+}
+
+.ekings-logo {
+  width: 185px;
+  height: 69px;
+}
+
+.ekings-logo-two {
+  width: 92px;
+  height: 23px;
+}
+
+.ekings-logo-two-container {
+  margin: 3.5% 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.button-one,
+.button-two {
+  border-style: none;
+  border-radius: 4px;
+  z-index: 26;
+  width: 120px;
+  height: 35px;
+  background-color: #29abe2;
+  background: -webkit-linear-gradient(#990817, #f30c22);
+  background: -moz-linear-gradient(#990817, #f30c22);
+  background: -ms-linear-gradient(#990817, #f30c22);
+  background: -o-linear-gradient(#990817, #f30c22);
+  background: linear-gradient(#990817, #f30c22);
+  box-shadow: none;
+  text-shadow: none;
+  color: #f9e3a4;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 400;
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-one {
+  margin-right: 2%;
+}
+
+.button-one:hover,
+.button-two:hover {
+  background-color: #1f99d7;
+  background: -webkit-linear-gradient(#f6ba1a, #dd900c);
+  background: -moz-linear-gradient(#f6ba1a, #dd900c);
+  background: -ms-linear-gradient(#f6ba1a, #dd900c);
+  background: -o-linear-gradient(#f6ba1a, #dd900c);
+  background: linear-gradient(#f6ba1a, #dd900c);
+  box-shadow: none;
+  color: #171101;
+  text-decoration: none;
+}
+
+.button-three {
+  border-style: none;
+  width: 300px;
+  height: 86px;
+  position: absolute;
+  text-shadow: none;
+  box-shadow: none;
+  background-image: url("./assets/32cc9ff4-2019-glossy-wide-red-button_1000000000000000000028.png");
+  background-color: rgba(6, 6, 6, 0);
+  color: #fedb76;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 400;
+  font-family: Montserrat;
+  font-style: normal;
+  text-align: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: 7.5%;
+  margin-top: 2.5%;
+}
+
+.button-three:hover {
+  text-shadow: none;
+  box-shadow: none;
+  background-color: rgba(6, 5, 5, 0);
+  background-image: url("./assets/52a2e32c-2019-glossy-wide-red-button2_1000000000000000000028.png");
+  color: #fedb76;
+  text-decoration: none;
+}
+
+.button-three-text {
+  display: block;
+  padding: 0 8px 0 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.button-four {
+  border-style: none;
+  border-radius: 32px;
+  width: 350px;
+  height: 48px;
+  position: absolute;
+  background-color: #29abe2;
+  background: -webkit-linear-gradient(#f6ba1a, #dd900c);
+  background: -moz-linear-gradient(#f6ba1a, #dd900c);
+  background: -ms-linear-gradient(#f6ba1a, #dd900c);
+  background: -o-linear-gradient(#f6ba1a, #dd900c);
+  background: linear-gradient(#f6ba1a, #dd900c);
+  box-shadow: none;
+  text-shadow: none;
+  color: #161001;
+  font-size: 20px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-four:hover {
+  background-color: #1f99d7;
+  background: -webkit-linear-gradient(#eaa714, #d27f09);
+  background: -moz-linear-gradient(#eaa714, #d27f09);
+  background: -ms-linear-gradient(#eaa714, #d27f09);
+  background: -o-linear-gradient(#eaa714, #d27f09);
+  background: linear-gradient(#eaa714, #d27f09);
+  box-shadow: none;
+  color: #161001;
+  text-decoration: none;
+}
+
+.three-man {
+  background-image: url("assets/3-man-team-1-1129x587px.jpg");
+  width: auto;
+  height: 547px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.three-man-container {
+  position: relative;
+}
+
+.banner {
+  width: 430px;
+  height: auto;
+  margin-top: 15%;
+  margin-left: 3.5%;
+  margin-bottom: 5%;
+}
+
+.banner-container {
+  position: absolute;
+  top: 9%;
+  left: 1%;
+}
+
+.p-and-button-container {
+  margin-top: 14%;
+}
+
+.p-one-container,
+.p-two-and-three-container {
+  margin-left: 7.5%;
+}
+
+.p-one-container {
+  margin-bottom: 22px;
+}
+
+.p-two-and-three-container {
+  line-height: 12px;
+}
+
+.p-ten-container {
+  margin-top: 5%;
+  line-height: 29px;
+  text-align: center;
+}
+
+.p-eleven-container {
+  line-height: 29px;
+  text-align: center;
+}
+
+.p-twelve-container {
+  margin-top: 1%;
+  text-align: center;
+}
+
+.p-thirtheen-container,
+.p-fourtheen-container,
+.p-fiftheen-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.p-one {
+  color: rgb(245, 176, 51);
+  font-size: 30px;
+}
+
+.p-two,
+.p-three {
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: rgb(249, 227, 164);
+  font-family: montserrat;
+  text-shadow: 4px 4px 14px black;
+}
+
+.p-four,
+.p-six,
+.p-eight {
+  font-weight: bolder;
+  font-family: montserrat;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: rgb(245, 176, 51);
+}
+
+.p-five,
+.p-seven,
+.p-nine {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: rgb(242, 230, 178);
+}
+
+.p-nine {
+  text-align: center;
+}
+
+.p-ten,
+.p-eleven {
+  font-size: 26px;
+  letter-spacing: 1px;
+  color: rgb(245, 176, 51);
+}
+
+.p-twelve {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: rgb(249, 227, 164);
+}
+
+.p-thirtheen,
+.p-fourtheen,
+.p-fiftheen {
+  font-size: 16px;
+  font-style: italic;
+  color: rgb(249, 227, 164);
+  margin: 0;
+}
+
+.number-logo-container {
+  background: rgba(116, 3, 3, 1);
+  border-style: none;
+  margin-bottom: 1px;
+  border-radius: 0px;
+  height: 283px;
+  display: flex;
+  align-items: center;
+}
+
+.number-one-container,
+.number-two-container,
+.number-three-container {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-one,
+.number-two,
+.number-three {
+  width: 54px;
+  height: 61px;
+}
+
+.horizontal-container {
+  display: flex;
+  justify-content: center;
+}
+
+.horizontal {
+  background: rgba(255, 255, 255, 0);
+  border-style: solid none none none;
+  border-width: 1px;
+  border-color: #5e5e5e;
+  margin-top: 1%;
+  width: 103px;
+  height: 8px;
+}
+
+.box-one,
+.box-two,
+.box-three {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #f5b033;
+  border-radius: 0px;
+  z-index: 20;
+  width: 100%;
+  height: 198px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-one-container,
+.box-two-container,
+.box-three-container {
+  margin-top: 2.5%;
+}
+
+.game-banner-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.game-banner {
+  width: 793px;
+  height: 170px;
+}
+
+.onclick-container,
+.remove-container {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding: 0;
+}
+
+.remove-container {
+  padding-left: 1%;
+}
+
+.onclick-banner,
+.remove-banner {
+  width: auto;
+  height: 135px;
+}
+
+.onclick-banner {
+  float: right;
+}
+
+.lower-banner-container {
+  position: relative;
+}
+
+.lower-banner {
+  background-image: url("./assets/lower-banner-1180x398.jpg");
+  width: 100%;
+  height: 398px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.lower-banner-p-container,
+.lower-banner-button-container {
+  position: absolute;
+  top: 83px;
+  text-align: center;
+}
+
+.lower-banner-p-container {
+  left: 6.2%;
+}
+
+.lower-banner-button-container {
+  top: 231px;
+  left: 8%;
+}
+
+.lower-banner-p {
+  font-weight: bolder;
+  text-shadow: 2px 2px 7px black;
+  font-size: 32px;
+  color: rgb(245, 176, 51);
+}
+
+.social-section {
+  background: rgba(116, 3, 3, 1);
+  height: 222px;
+}
+
+.social-main-container,
+.social-container {
+  height: 222px;
+}
+
+.social-container {
+  display: flex;
+  align-items: center;
+}
+
+.social-text-container {
+  margin-bottom: 5%;
+}
+
+.social-text {
+  letter-spacing: 1px;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(242, 230, 178);
+  margin: 0;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fb-icon,
+.ig-icon,
+.yt-icon,
+.line-icon {
+  width: 56px;
+  height: 56px;
+}
+
+.footer-section {
+  background: rgba(47, 46, 46, 1);
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-p {
+  letter-spacing: 1px;
+  color: rgb(242, 230, 178);
+  font-size: 9px;
+  margin: 0;
+}
+
+@media (min-width: 430px) and (max-width: 985px) {
+  .nav-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .three-man-container {
+    width: 100%;
+  }
+
+  .three-man {
+    background-image: url("assets/3-man-team-3-mobile.jpg");
+    height: 378px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .ekings-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner {
+    width: 212px;
+    height: auto;
+    margin-top: 7%;
+  }
+
+  .banner-and-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .banner,
+  .p-one,
+  .p-one-container {
+    margin: unset;
+  }
+
+  .p-one-container {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-pTwoThree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-and-button-container {
+    margin-top: 19%;
+  }
+
+  .p-one {
+    font-size: 16px;
+  }
+
+  .p-two-and-three-container-mobile {
+    line-height: 11px;
+  }
+
+  .p-two,
+  .p-three {
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 14px black;
+  }
+
+  .p-four,
+  .p-six,
+  .p-eight {
+    margin: 0;
+  }
+
+  .p-five,
+  .p-seven,
+  .p-nine {
+    margin-bottom: 10%;
+  }
+
+  .button-container {
+    display: none;
+  }
+
+  .button-three-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-three {
+    width: 200px;
+    height: 57px;
+    margin: unset;
+    background-image: url("./assets/glossy-wide-red-button-mobile.png");
+  }
+
+  .button-three:hover {
+    background-image: url("./assets/glossy-wide-red-button-mobile2.png");
+  }
+
+  .button-three-text {
+    position: absolute;
+    top: 27%;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 8px 0 8px;
+    cursor: pointer;
+  }
+
+  .button-four {
+    position: unset;
+    border-style: none;
+    border-radius: 32px;
+    height: 40px;
+    background-color: #29abe2;
+    background: -webkit-linear-gradient(#f6ba1a, #dd900c);
+    background: -moz-linear-gradient(#f6ba1a, #dd900c);
+    background: -ms-linear-gradient(#f6ba1a, #dd900c);
+    background: -o-linear-gradient(#f6ba1a, #dd900c);
+    background: linear-gradient(#f6ba1a, #dd900c);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .button-four:hover {
+    background-color: #1f99d7;
+    background: -webkit-linear-gradient(#b10909, #fb1212);
+    background: -moz-linear-gradient(#b10909, #fb1212);
+    background: -ms-linear-gradient(#b10909, #fb1212);
+    background: -o-linear-gradient(#b10909, #fb1212);
+    background: linear-gradient(#b10909, #fb1212);
+    box-shadow: none;
+    color: #fdf1dc;
+  }
+
+  .number-logo-container {
+    height: 100%;
+  }
+
+  .banner-container {
+    position: unset;
+  }
+
+  .number-one,
+  .number-two,
+  .number-three {
+    width: 46px;
+    height: 63px;
+  }
+
+  .number-one-container,
+  .number-two-container,
+  .number-three-container {
+    margin-top: 10%;
+  }
+
+  .horizontal-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+  }
+
+  .horizontal-mobile {
+    background: rgba(177, 155, 114, 1);
+    border-style: none;
+    border-width: 1px;
+    height: 1px;
+  }
+
+  .box-one,
+  .box-two,
+  .box-three {
+    width: 100%;
+  }
+
+  .p-ten-container {
+    margin-top: 7%;
+  }
+
+  .p-ten,
+  .p-eleven {
+    line-height: 23px;
+    font-size: 21px;
+    margin-bottom: 4%;
+  }
+
+  .p-twelve {
+    margin-left: 15%;
+    margin-bottom: 8%;
+    margin-right: 15%;
+  }
+
+  .p-ten {
+    margin-bottom: 5.5%;
+  }
+
+  .game-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .onclick-container,
+  .remove-container {
+    margin-bottom: unset;
+    padding: unset;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .onclick-container {
+    margin-top: 8%;
+  }
+
+  .remove-container {
+    margin: 5% 0 10% 0;
+  }
+
+  .onclick-banner,
+  .remove-banner {
+    float: unset;
+    width: 58%;
+    height: 100%;
+  }
+
+  .lower-banner-container {
+    margin-top: 25%;
+    position: relative;
+  }
+
+  .lower-banner {
+    background-image: url("./assets/lower-banner-mobile.png");
+    width: auto;
+    height: 317px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .lower-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .lower-banner-p-container,
+  .lower-banner-button-container {
+    position: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lower-banner-p {
+    font-size: 17px;
+  }
+
+  .social-main-container {
+    height: unset !important;
+    margin-top: 5%;
+  }
+
+  .social-icons {
+    align-items: unset;
+  }
+
+  .social-container {
+    align-items: unset;
+    height: 100%;
+  }
+
+  .social-section {
+    height: 395px;
+    position: relative;
+  }
+
+  .fb-icon,
+  .ig-icon,
+  .yt-icon,
+  .line-icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+
+  .banner,
+  .p-one,
+  .p-one-container {
+    margin: unset;
+  }
+
+  .p-one-container {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 429px) {
+  .nav-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .three-man-container {
+    width: 100%;
+  }
+
+  .three-man {
+    background-image: url("assets/3-man-team-3-820x523.jpg");
+    height: 378px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .ekings-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner {
+    width: 212px;
+    height: auto;
+    margin-top: 7%;
+  }
+
+  .banner-and-p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+  }
+
+  .main-pTwoThree-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .p-and-button-container {
+    margin-top: 24.5%;
+  }
+
+  .p-one {
+    font-size: 14px;
+  }
+
+  .p-two-and-three-container-mobile {
+    line-height: 11px;
+  }
+
+  .p-two,
+  .p-three {
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-shadow: 4px 4px 14px black;
+  }
+
+  .p-four,
+  .p-six,
+  .p-eight {
+    margin: 0;
+  }
+
+  .p-five,
+  .p-seven,
+  .p-nine {
+    margin-bottom: 20%;
+  }
+
+  .button-container {
+    display: none;
+  }
+
+  .button-three-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-three {
+    width: 200px;
+    height: 57px;
+    margin: unset;
+    background-image: url("./assets/glossy-wide-red-button-mobile.png");
+  }
+
+  .button-three:hover {
+    background-image: url("./assets/glossy-wide-red-button-mobile2.png");
+  }
+
+  .button-three-text {
+    position: absolute;
+    top: 27%;
+    display: block;
+    text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 8px 0 8px;
+    cursor: pointer;
+  }
+
+  .button-four {
+    width: unset;
+    position: unset;
+
+    border-style: none;
+    border-radius: 32px;
+
+    height: 40px;
+    background-color: #29abe2;
+    background: -webkit-linear-gradient(#f6ba1a, #dd900c);
+    background: -moz-linear-gradient(#f6ba1a, #dd900c);
+    background: -ms-linear-gradient(#f6ba1a, #dd900c);
+    background: -o-linear-gradient(#f6ba1a, #dd900c);
+    background: linear-gradient(#f6ba1a, #dd900c);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .button-four:hover {
+    background-color: #1f99d7;
+    background: -webkit-linear-gradient(#b10909, #fb1212);
+    background: -moz-linear-gradient(#b10909, #fb1212);
+    background: -ms-linear-gradient(#b10909, #fb1212);
+    background: -o-linear-gradient(#b10909, #fb1212);
+    background: linear-gradient(#b10909, #fb1212);
+    box-shadow: none;
+    color: #fdf1dc;
+  }
+
+  .number-logo-container {
+    height: 100%;
+  }
+
+  .banner-container {
+    position: unset;
+  }
+
+  .number-one,
+  .number-two,
+  .number-three {
+    width: 46px;
+    height: 63px;
+  }
+
+  .number-one-container,
+  .number-two-container,
+  .number-three-container {
+    margin-top: 19%;
+  }
+
+  .horizontal-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4%;
+  }
+
+  .horizontal-mobile {
+    background: rgba(177, 155, 114, 1);
+    border-style: none;
+    border-width: 1px;
+    height: 1px;
+  }
+
+  .box-one,
+  .box-two,
+  .box-three {
+    width: 100%;
+  }
+
+  .p-ten-container {
+    margin-top: 15%;
+  }
+
+  .p-ten,
+  .p-eleven {
+    line-height: 23px;
+    font-size: 21px;
+    margin-bottom: 15%;
+  }
+
+  .p-twelve {
+    margin-left: 15%;
+    margin-bottom: 17%;
+    margin-right: 15%;
+  }
+
+  .p-ten {
+    margin-bottom: 5.5%;
+  }
+
+  .game-banner {
+    width: 100%;
+    height: 100%;
+  }
+
+  .onclick-container,
+  .remove-container {
+    margin-bottom: unset;
+    padding: unset;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .onclick-container {
+    margin-top: 8%;
+  }
+
+  .remove-container {
+    margin: 5% 0 10% 0;
+  }
+
+  .onclick-banner,
+  .remove-banner {
+    float: unset;
+    width: 78%;
+    height: 100%;
+  }
+
+  .lower-banner-container {
+    margin-top: 41%;
+    position: relative;
+  }
+
+  .lower-banner {
+    background-image: url("./assets/lower-banner-mobile.png");
+    width: auto;
+    height: 317px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .lower-banner-p-container,
+  .lower-banner-button-container {
+    position: unset;
+  }
+
+  .lower-banner-p {
+    font-size: 17px;
+  }
+
+  .social-main-container {
+    height: unset !important;
+    margin-top: 5%;
+  }
+
+  .social-icons {
+    align-items: unset;
+  }
+
+  .social-container {
+    align-items: unset;
+    height: 100%;
+  }
+
+  .social-section {
+    height: 395px;
+    position: relative;
+  }
+
+  .fb-icon,
+  .ig-icon,
+  .yt-icon,
+  .line-icon {
+    width: 47px;
+    height: 47px;
+  }
+
+  .footer-container {
+    text-align: center;
+  }
+}
+
+@media (max-width: 415px) {
+  .banner-and-p {
+    margin-top: 3%;
+  }
+
+  .p-and-button-container {
+    margin-top: 24.5%;
+  }
+}
+
+@media (max-width: 394px) {
+  .banner-and-p {
+    margin-top: 3%;
+  }
+
+  .p-and-button-container {
+    margin-top: 26.5%;
+  }
+}
+
+@media (max-width: 376px) {
+  .p-and-button-container {
+    margin-top: 27.5%;
+  }
+}
+
+@media (max-width: 360px) {
+  .p-and-button-container {
+    margin-top: 28.5%;
+  }
+
+  .lower-banner-container {
+    margin-top: 47%;
+    position: relative;
+  }
+}
+
+@media (max-width: 320px) {
+  .p-and-button-container {
+    margin-top: 32.5%;
+  }
+
+  .lower-banner-container {
+    margin-top: 51%;
+    position: relative;
+  }
+}
